@@ -1,0 +1,95 @@
+.heading {
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+    cursor: pointer;
+}
+
+.container-heading {
+    padding: 20px;
+}
+.container-heading:hover {
+    text-decoration: underline;
+}
+.container {
+    background-color: none;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.a-1, .a-2, .a-3 {
+    font-family: monospace;
+    display: inline;
+    color: green;
+    margin-right: 25px;
+    float: right;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.one, .two, .three {
+    background-color: none;
+    display: inline-block;
+}
+
+.a-1:hover {
+    text-decoration: underline;
+}
+
+.a-2:hover {
+    text-decoration: underline;
+}
+
+.a-3:hover {
+    text-decoration: underline;
+}
+
+.about-container {
+    border: 1px solid black;
+    display: flex;
+    margin-right: 900px;
+    margin-top: 20px;
+}
+
+.about-content {
+    text-align: left;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+section {
+    background-color: none;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.section-1 {
+    border: 1px solid black;
+}
+
+.heading-2 {
+    padding: 50px;
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+#icons {
+    font-size: 100px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 400px;
+}
+
